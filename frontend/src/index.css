@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.outer-container {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.camera-area {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 1000x;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.button-disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.photo-list-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.photo-list-button:hover {
+  background-color: #ddd;
+}
